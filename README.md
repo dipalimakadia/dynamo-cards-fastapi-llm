@@ -54,14 +54,14 @@ Enhance YouTube video analysis with key  concept identification! 📝 Add a find
 
 import tqdm
 
-##Task 8: Billing Character Calculation Enhancement
+## Task 8: Billing Character Calculation Enhancement
 
 Enhance cost tracking and verbosity in your AI tools!  Modify the count_total_tokens method in GeminiProcessor to calculate billable characters. Update YoutubeProcessor to log billable characters in retrieve_youtube_documents and find_key_concepts methods, providing cost insights with verbosity control.
 
-##Task 9: Key Concept Refactoring and Output Formatting
+## Task 9: Key Concept Refactoring and Output Formatting
 
 Fine-tune key concept identification for improved usability! Rename group_size to sample_size and handle num_docs_per_group validations. Adjust defaults for sample_size and provide feedback on output quality. Modify prompt template for JSON response format. Convert JSON strings to Python Dicts before returning key concepts.
 
-##Task 10: Frontend Integration and Flashcard Handling
+## Task 10: Frontend Integration and Flashcard Handling
 
 Enhance frontend functionality for seamless interaction!  Update sendLink method in App.jsx to manage key_concepts state and handle response data variations. Implement a discardFlashcard function to remove flashcards, enhancing user control. Modify Flashcard component to include onDiscard functionality for efficient flashcard management.
